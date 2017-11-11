@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/log_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/connection_textview"
+        android:fontFamily="monospace"
+        android:text="LOG"
+        android:textColor="#212121"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/connection_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="monospace"
+        android:text="CONN"
+        android:textColor="#212121"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
