@@ -1,19 +1,19 @@
-#Sat Nov 11 13:00:09 CET 2017
+#Sun Nov 12 00:54:19 CET 2017
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/35
-base.4=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/32
-base.3=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/34
-base.2=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/31
-base.1=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/33
-base.0=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/30
-file.5=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/35/classes.dex
-file.4=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/32/classes.dex
-file.3=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/34/classes.dex
-file.2=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/31/classes.dex
-file.1=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/33/classes.dex
-file.0=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/30/classes.dex
+base.5=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/16
+base.4=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/13
+base.3=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/12
+base.2=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/15
+base.1=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/17
+base.0=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/14
+file.5=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
+file.4=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex
+file.3=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
+file.2=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
+file.1=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex
+file.0=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex

@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
 
     private FragmentLog fl;
     private FragmentDebug fd;
+    private FragmentControl fc;
+    private byte previous_pressed_buttons = 0x00;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         fl = (FragmentLog) adapter.getItem(0);
         fd = (FragmentDebug) adapter.getItem(1);
+        fc = (FragmentControl) adapter.getItem(2);
         k = 0;
 
         /* Check if device has NFC */
@@ -179,12 +183,17 @@ public class MainActivity extends AppCompatActivity {
                         if(response[0] == 0x00){
                             byte pressed_buttons = response[1];
                             fd.updateButtons(pressed_buttons);
+                 //           fc.sendTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
+
+                            previous_pressed_buttons = pressed_buttons;
                             byte pressed_switches = response[2];
                             fd.updateSwitches(pressed_switches);
                             byte adc_msb = response[3];
                        //     byte adc_lsb = response[4];
-                            byte adc_lsb = response[3];
-                            fd.updateSeekBar(adc_msb,adc_lsb);
+                            int bpm_value = 0x000000FF&((int) adc_msb);
+                            fd.updateBPMDebug(bpm_value);
+                            fc.setBpm(bpm_value);
+
 
 
                         }
@@ -214,10 +223,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static Boolean getBit(byte value, byte mask){
-        if( (value & mask) > 0) {
-            return true;
-        }
-        return false;
+        return (value & mask) > 0;
     }
 
     private final static char[] hexArray = "0123456789ABCDEF".toCharArray();

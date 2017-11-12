@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import static java.lang.Math.abs;
@@ -39,6 +40,8 @@ public class FragmentDebug extends Fragment {
 
     public SeekBar seekBar1;
 
+    public TextView bpm;
+
 
     public boolean ready = false;
 
@@ -57,7 +60,6 @@ public class FragmentDebug extends Fragment {
         // Inflate the layout for this fragment
         View ll = inflater.inflate(R.layout.debug_tab, container, false);
 
-        ready = true;
 
         btn1 = ll.findViewById(R.id.btn1);
         btn2 = ll.findViewById(R.id.btn2);
@@ -79,6 +81,10 @@ public class FragmentDebug extends Fragment {
 
         seekBar1 = ll.findViewById(R.id.seekBar1);
         seekBar1.setMax(255);
+
+        bpm = ll.findViewById(R.id.bpm_textview);
+
+        ready = true;
 
         return ll;
     }
@@ -109,7 +115,7 @@ public class FragmentDebug extends Fragment {
     public void updateSwitches(byte b){
 
         if(ready) {
-            switch1.setChecked(getBit(b,0));
+            /* switch1.setChecked(getBit(b,0));
             switch2.setChecked(getBit(b,1));
             switch3.setChecked(getBit(b,2));
             switch4.setChecked(getBit(b,3));
@@ -117,19 +123,26 @@ public class FragmentDebug extends Fragment {
             switch6.setChecked(getBit(b,5));
             switch7.setChecked(getBit(b,6));
             switch8.setChecked(getBit(b,7));
+            */
+            if(switch1.isChecked() != getBit(b,0)) switch1.toggle();
+            if(switch2.isChecked() != getBit(b,1)) switch2.toggle();
+            if(switch3.isChecked() != getBit(b,2)) switch3.toggle();
+            if(switch4.isChecked() != getBit(b,3)) switch4.toggle();
+            if(switch5.isChecked() != getBit(b,4)) switch5.toggle();
+            if(switch6.isChecked() != getBit(b,5)) switch6.toggle();
+            if(switch7.isChecked() != getBit(b,6)) switch7.toggle();
+            if(switch8.isChecked() != getBit(b,7)) switch8.toggle();
         }
 
     }
 
 
-    public void updateSeekBar(byte b1, byte b2){
+    public void updateBPMDebug(int value ){
 
         if(ready) {
-     //       int value = abs(Byte.valueOf(b1).intValue());
-            int value = 0x000000FF&((int) b1);
-            //  System.out.print(Int+eger.toBinaryString(b1)+" "+Integer.toBinaryString(b2)+"\n");
-            System.out.println(value);
+       //     System.out.println(value);
             seekBar1.setProgress(value);
+            bpm.setText(String.valueOf(value));
         }
 
     }
@@ -138,6 +151,12 @@ public class FragmentDebug extends Fragment {
     {
         if (((b >> position) & 1) == 1) return true;
         else return false;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ready = false;
     }
 
 }

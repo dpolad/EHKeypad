@@ -1,4 +1,4 @@
-#Sat Nov 11 13:19:46 CET 2017
-base.0=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/28
+#Sun Nov 12 01:41:01 CET 2017
+base.0=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/10
 renamed.0=classes.dex
-file.0=/home/davide/Downloads/EHKeypad (2)/app/build/intermediates/transforms/dexMerger/debug/28/classes.dex
+file.0=/home/davide/Downloads/EHKeypad/app/build/intermediates/transforms/dexMerger/debug/10/classes.dex
