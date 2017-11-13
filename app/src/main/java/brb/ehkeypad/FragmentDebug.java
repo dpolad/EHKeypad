@@ -142,7 +142,7 @@ public class FragmentDebug extends Fragment {
         if(ready) {
        //     System.out.println(value);
             seekBar1.setProgress(value);
-            bpm.setText(String.valueOf(value));
+            bpm.setText(String.valueOf(value+1));
         }
 
     }

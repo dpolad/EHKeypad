@@ -183,11 +183,12 @@ public class MainActivity extends AppCompatActivity {
                         if(response[0] == 0x00){
                             byte pressed_buttons = response[1];
                             fd.updateButtons(pressed_buttons);
-                 //           fc.sendTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
+                            fc.sendTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
 
                             previous_pressed_buttons = pressed_buttons;
                             byte pressed_switches = response[2];
                             fd.updateSwitches(pressed_switches);
+                            fc.sendSwitches(pressed_switches);
                             byte adc_msb = response[3];
                        //     byte adc_lsb = response[4];
                             int bpm_value = 0x000000FF&((int) adc_msb);
