@@ -43,7 +43,7 @@
 #include "stm32l4xx_ll_cortex.h"
 
 #define ADCx                            ADC1
-#define ADCx_CHANNEL_A                  ADC_CHANNEL_9			//PA4
+#define ADCx_CHANNEL_A                  ADC_CHANNEL_9 //PA4
 
 #define ADC_CALIBRATION_TIMEOUT_MS       ((uint32_t)   1)
 #define ADC_ENABLE_TIMEOUT_MS            ((uint32_t)   1)
