@@ -101,7 +101,6 @@
                 android:text="Switch 3" />
 
             <Button
-
                 android:id="@+id/btn3"
                 android:text="Button 3"
                 android:layout_width="0dp"

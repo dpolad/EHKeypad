@@ -1,205 +1,379 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#fff"
-    android:layout_height="match_parent">
+    android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_weight="0.1"
         android:layout_height="wrap_content"
         android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="BPM" />
+
         <TextView
             android:id="@+id/bpm_control_textview"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:fontFamily="monospace"
             android:text="000"
             android:textAlignment="center"
-            android:layout_weight="0.2"
             android:textColor="#212121"
             android:textSize="20sp" />
 
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="6"
             android:backgroundTint="@android:color/holo_blue_dark" />
     </LinearLayout>
 
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center">
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <RadioButton
+            android:id="@+id/radio_off"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.10"
-            android:gravity="bottom">
+        <ProgressBar
+            android:id="@+id/progressBar8"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:backgroundTint="@android:color/holo_blue_dark" />
 
-            <ProgressBar
-                android:id="@+id/progressBar8"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.10"
-            android:gravity="center">
-
-
-            <SurfaceView
-                android:id="@+id/block1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SurfaceView
-                android:id="@+id/block2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SurfaceView
-                android:id="@+id/block3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-            <SurfaceView
-                android:id="@+id/block4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-            <SurfaceView
-                android:id="@+id/block5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-            <SurfaceView
-                android:id="@+id/block6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-            <SurfaceView
-                android:id="@+id/block7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-            <SurfaceView
-                android:id="@+id/block8"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:layout_weight="0.40"
-            android:gravity="center">
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.20"
-            android:gravity="center">
-
-            <Spinner
-                android:id="@+id/key_spinner"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.20"
-            android:gravity="center">
-
-            <Button
-                android:id="@+id/key0"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key1"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key2"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key3"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key4"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key5"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key6"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-            <Button
-                android:id="@+id/key7"
-                android:text="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:gravity="center"/>
-
-
-        </LinearLayout>
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/radio_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_0"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_4"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_6"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block0_7"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/radio_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_0"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_4"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_6"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block1_7"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/radio_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_0"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_4"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_6"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+        <SurfaceView
+            android:id="@+id/block2_7"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:gravity="center"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/key_spinner_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/key_spinner_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/key_spinner_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/key0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="3" />
+
+
+    </LinearLayout>
 </LinearLayout>

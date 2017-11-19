@@ -4,43 +4,50 @@
     api-level="25"
     build-mode="COLD"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1511049562546"
+    timestamp="1511131995186"
     token="2001419251539035057"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="106" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="34" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1511049332587"
+        timestamp="1511129233733"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -52,9 +59,6 @@
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
@@ -63,17 +67,38 @@
         <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1511131371965"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1511131449518"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511049562546"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1511131995186"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

@@ -26,6 +26,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,6 +35,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
+
+
+// TODO: Strong code polish / comment /refactor
+// TODO: add other sounds
+// TODO: move selection boxes for switches in a more intuitive position
+// TODO: add selection box for each button
+// TODO: correct BPM value
+// TODO: add progress bar for BPM ticks (already in place, only need to code it)
+// TODO: changes colors and shapes
 
 
 public class FragmentControl extends Fragment {
@@ -45,6 +55,7 @@ public class FragmentControl extends Fragment {
 
     // soundpool for piano keys
     public SoundPool sp;
+    public SoundPool sp2;
 
     //soundpool for switches
     public SoundPool[] array_sp = new SoundPool[8];
@@ -56,12 +67,19 @@ public class FragmentControl extends Fragment {
     public boolean ready = false;
 
     // sound played by switches
-    private String switchSound = "kick";
+    private String switchSound_0 = "kick";
+    private String switchSound_1 = "kick";
+    private String switchSound_2 = "blabla";
 
-    // can be moved to local variables
-    private int[] array_kick = new int[8];
-    private int[] array_jab = new int[8];
+    private RadioButton[] radios = new RadioButton[3];
+    private RadioButton radio_off;
 
+    private int currentRadio = 0;
+
+
+
+    // variable to store sounds
+    private int kick,jab,asd;
 
     // notes for piano -> TODO: move to a better structure
     private int piano_a;
@@ -74,13 +92,13 @@ public class FragmentControl extends Fragment {
     private int piano_g;
 
     //hashmap for switch sounds
-    private HashMap<String, int[]> soundMap = new HashMap<String, int[]>();
+    private HashMap<String, Integer> soundMap = new HashMap<String, Integer>();
 
     // byte taken from MainActivity, each bit is the position of a switch
-    private byte switches;
+    private byte[] switches = new byte[3];
 
     // each surfaces represents a switch
-    private SurfaceView[] squares= new SurfaceView[8];
+    private SurfaceView[][] squares= new SurfaceView[3][8];
 
     // bpm value
     private long bpm = 30;
@@ -111,10 +129,10 @@ public class FragmentControl extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
-        // instantiate sound pools: array of soundpool is for switches, while sp is for buttons
-        AudioAttributes att = new AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_GAME).setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION).build();
+        // instantiate sound pools: sp2 is for switches, while sp is for buttons
 
-        sp = new SoundPool.Builder().setAudioAttributes(att).build();
+        sp= new SoundPool.Builder().setMaxStreams(2).build();
+        sp2= new SoundPool.Builder().setMaxStreams(3).build();
         piano_a = sp.load(MainActivity.ctx,R.raw.piano_a,1);
         piano_b = sp.load(MainActivity.ctx,R.raw.piano_b,1);
         piano_bb = sp.load(MainActivity.ctx,R.raw.piano_bb,1);
@@ -125,20 +143,13 @@ public class FragmentControl extends Fragment {
         piano_g = sp.load(MainActivity.ctx,R.raw.piano_g,1);
 
 
+        kick = sp2.load(MainActivity.ctx,R.raw.kick,1);
+        jab = sp2.load(MainActivity.ctx,R.raw.jab,1);
+        asd = sp2.load(MainActivity.ctx,R.raw.asd,1);
 
-        for (int i = 0; i < 8; i++){
-            // load each soundpool with kick
-            array_sp[i] = new SoundPool.Builder().setAudioAttributes(att).build();
-
-            array_kick[i] = array_sp[i].load(MainActivity.ctx,R.raw.kick,1);
-            array_jab[i] = array_sp[i].load(MainActivity.ctx,R.raw.jab,1);
-
-            soundMap.put("kick",array_kick);
-            soundMap.put("jab",array_jab);
-
-        }
-
-
+        soundMap.put("kick",kick);
+        soundMap.put("jab",jab);
+        soundMap.put("asd",asd);
 
         super.onCreate(savedInstanceState);
 
@@ -151,18 +162,74 @@ public class FragmentControl extends Fragment {
 
         View ll = inflater.inflate(R.layout.control_tab, container, false);
 
+
+        radio_off = ll.findViewById(R.id.radio_off);
+        radio_off.setChecked(true);
+        radios[0] = (RadioButton) ll.findViewById(R.id.radio_0);
+        radios[1] = (RadioButton) ll.findViewById(R.id.radio_1);
+        radios[2] = (RadioButton) ll.findViewById(R.id.radio_2);
+
+        radio_off.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                radio_off.setChecked(true);
+                radios[0].setChecked(false);
+                radios[1].setChecked(false);
+                radios[2].setChecked(false);
+                currentRadio = -1;
+            }
+        });
+
+        radios[0].setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                radio_off.setChecked(false);
+                radios[0].setChecked(true);
+                radios[1].setChecked(false);
+                radios[2].setChecked(false);
+                currentRadio = 0;
+            }
+        });
+
+        radios[1].setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                radio_off.setChecked(false);
+                radios[0].setChecked(false);
+                radios[1].setChecked(true);
+                radios[2].setChecked(false);
+                currentRadio = 1;
+            }
+        });
+
+        radios[2].setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                radio_off.setChecked(false);
+                radios[0].setChecked(false);
+                radios[1].setChecked(false);
+                radios[2].setChecked(true);
+                currentRadio = 2;
+            }
+        });
+
         // set UI objects views
         bpm_text = ll.findViewById(R.id.bpm_control_textview);
         progress = ll.findViewById(R.id.progressBar8);
-        for(int i = 0; i < 8; i++){
-            squares[i] = ll.findViewById(R.id.block1+i);
-            squares[i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
 
+        //fill squares with blue color
+        for(int i = 0; i < 8; i++){
+            squares[0][i] = ll.findViewById(R.id.block0_0+i);
+            squares[0][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
+            squares[1][i] = ll.findViewById(R.id.block1_0+i);
+            squares[1][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
+            squares[2][i] = ll.findViewById(R.id.block2_0+i);
+            squares[2][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
             keys[i] = ll.findViewById(R.id.key0+i);
         }
+
+        //initialize progressBar
         progress.getIndeterminateDrawable().setColorFilter(0xFFFF0000, android.graphics.PorterDuff.Mode.MULTIPLY);
 
-        Spinner spinner = ll.findViewById(R.id.key_spinner);
+        // each spinner is for a line of switches, at the moment cannot make the code more elegant
+
+        Spinner spinner = ll.findViewById(R.id.key_spinner_0);
 //      Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(MainActivity.ctx,R.array.piano_array, android.R.layout.simple_spinner_item);
 //      Specify the layout to use when the list of choices appears
@@ -177,8 +244,56 @@ public class FragmentControl extends Fragment {
                 Object item = adapterView.getItemAtPosition(position);
                 if (item != null) {
                    // Toast.makeText(getContext(), item.toString(),Toast.LENGTH_SHORT).show();
-                    switchSound=item.toString();
-                    System.out.println(switchSound);
+                    switchSound_0=item.toString();
+                    System.out.println(switchSound_0);
+                }
+                //Toast.makeText(getContext(), "Selected",Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // TODO Auto-generated method stub
+
+            }
+        });
+
+        Spinner spinner2 = ll.findViewById(R.id.key_spinner_1);
+        spinner2.setAdapter(adapter);
+        spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view,
+                                       int position, long id) {
+                Object item = adapterView.getItemAtPosition(position);
+                if (item != null) {
+                    // Toast.makeText(getContext(), item.toString(),Toast.LENGTH_SHORT).show();
+                    switchSound_1=item.toString();
+                    System.out.println(switchSound_1);
+                }
+                //Toast.makeText(getContext(), "Selected",Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // TODO Auto-generated method stub
+
+            }
+        });
+
+        Spinner spinner3 = ll.findViewById(R.id.key_spinner_2);
+        spinner3.setAdapter(adapter);
+        spinner3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view,
+                                       int position, long id) {
+                Object item = adapterView.getItemAtPosition(position);
+                if (item != null) {
+                    // Toast.makeText(getContext(), item.toString(),Toast.LENGTH_SHORT).show();
+                    switchSound_2=item.toString();
+                    System.out.println(switchSound_2);
                 }
                 //Toast.makeText(getContext(), "Selected",Toast.LENGTH_SHORT).show();
 
@@ -240,13 +355,15 @@ public class FragmentControl extends Fragment {
     }
 
     public void sendSwitches(byte pressed_switches) {
-        switches = pressed_switches;
-        //update square values
-        for(int i = 0; i < 8; i++){
-            if(ready && i!=lastSwitch){
-                squareColor(squares[i],getBit(switches,i));
-            }
+        if(currentRadio >= 0) {
+            switches[currentRadio] = pressed_switches;
+            //update square values
+            for (int i = 0; i < 8; i++) {
+                if (ready && i != lastSwitch) {
+                    squareColor(squares[currentRadio][i], getBit(switches[currentRadio], i));
+                }
 
+            }
         }
     }
 
@@ -254,13 +371,17 @@ public class FragmentControl extends Fragment {
         public void run() {
             //main bpm timer code
 
-            squareColor(squares[lastSwitch],getBit(switches,lastSwitch));
+            squareColor(squares[0][lastSwitch],getBit(switches[0],lastSwitch));
+            squareColor(squares[1][lastSwitch],getBit(switches[1],lastSwitch));
+            squareColor(squares[2][lastSwitch],getBit(switches[2],lastSwitch));
 
-            squareLightColor(squares[currentSwitch],getBit(switches,currentSwitch));
+            squareLightColor(squares[0][currentSwitch],getBit(switches[0],currentSwitch));
+            squareLightColor(squares[1][currentSwitch],getBit(switches[1],currentSwitch));
+            squareLightColor(squares[2][currentSwitch],getBit(switches[2],currentSwitch));
 
-            if(getBit(switches,currentSwitch)){
-                playSwitch(currentSwitch);
-            }
+
+            playSwitch();
+
             lastSwitch = currentSwitch;
             currentSwitch=(++currentSwitch)%8;
             currentBpm = 60000/bpm;
@@ -280,11 +401,20 @@ public class FragmentControl extends Fragment {
         }
     }
 
-    private void playSwitch(int currentSwitch) {
+    private void playSwitch() {
 
-        int[] sound = soundMap.get(switchSound);
-        if(sound != null){
-            array_sp[currentSwitch].play(sound[currentSwitch],1,1,0,0,1);
+        Integer sound0 = soundMap.get(switchSound_0);
+        Integer sound1 = soundMap.get(switchSound_1);
+        Integer sound2 = soundMap.get(switchSound_2);
+
+        if(sound0 != null && getBit(switches[0],currentSwitch)){
+            sp2.play(sound0,1,1,0,0,1);
+        }
+        if(sound1 != null && getBit(switches[1],currentSwitch)){
+            sp2.play(sound1,1,1,0,0,1);
+        }
+        if(sound2 != null && getBit(switches[2],currentSwitch)){
+            sp2.play(sound2,1,1,0,0,1);
         }
 
     }
