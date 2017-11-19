@@ -4,32 +4,31 @@
     api-level="25"
     build-mode="COLD"
     format="10"
-    ir-eligibility="FIELD_ADDED"
     plugin-version="3.0.0"
-    timestamp="1510531574301"
+    timestamp="1511049562546"
     token="2001419251539035057"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="293" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="41" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
+        location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510531251763"
+        timestamp="1511049332587"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -70,12 +69,11 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1510531574301"
+        timestamp="1511049562546"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/davide/Downloads/EHKeypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
+            location="/home/davide/Downloads/EHKeypad/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

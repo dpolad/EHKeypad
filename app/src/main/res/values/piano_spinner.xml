@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="piano_array">
+        <item>Mercury</item>
+        <item>kick</item>
+        <item>jab</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

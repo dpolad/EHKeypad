@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
                             byte pressed_buttons = response[1];
                             fd.updateButtons(pressed_buttons);
                             fc.sendTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
-
+                            fc.updateButtons(pressed_buttons);
                             previous_pressed_buttons = pressed_buttons;
                             byte pressed_switches = response[2];
                             fd.updateSwitches(pressed_switches);

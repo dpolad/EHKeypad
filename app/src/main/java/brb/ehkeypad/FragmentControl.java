@@ -1,19 +1,37 @@
 package brb.ehkeypad;
 
+import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.content.res.Resources;
+import android.graphics.drawable.ColorDrawable;
 import android.media.AudioAttributes;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.CountDownTimer;
+import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
+import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -21,14 +39,31 @@ import java.util.TimerTask;
 public class FragmentControl extends Fragment {
 
     public TextView bpm_text;
+
+    // bpm progress bar
     public ProgressBar progress;
-    public SoundPool sp,sp2;
+
+    // soundpool for piano keys
+    public SoundPool sp;
+
+    //soundpool for switches
     public SoundPool[] array_sp = new SoundPool[8];
 
+    //button views
+    private Button[] keys = new Button[8];
+
+    // used to decide when it is possible to access UI element
     public boolean ready = false;
 
-    private int kick;
+    // sound played by switches
+    private String switchSound = "kick";
+
+    // can be moved to local variables
     private int[] array_kick = new int[8];
+    private int[] array_jab = new int[8];
+
+
+    // notes for piano -> TODO: move to a better structure
     private int piano_a;
     private int piano_b;
     private int piano_bb;
@@ -38,16 +73,34 @@ public class FragmentControl extends Fragment {
     private int piano_f;
     private int piano_g;
 
+    //hashmap for switch sounds
+    private HashMap<String, int[]> soundMap = new HashMap<String, int[]>();
+
+    // byte taken from MainActivity, each bit is the position of a switch
     private byte switches;
 
+    // each surfaces represents a switch
+    private SurfaceView[] squares= new SurfaceView[8];
 
+    // bpm value
     private long bpm = 30;
+
+    //progress of the bpm bar
     private int barprog;
+
+    //current and last switch
     private int currentSwitch = 0;
+    private int lastSwitch = 7;
 
 
+
+    //timer 1 used for sounds, timer2 for bar progress
     Timer t1,t2;
+
+    //may be moved to local
     private long currentBpm;
+
+    //unknown at the moment
     private ProgressTask pTask;
 
 
@@ -71,10 +124,18 @@ public class FragmentControl extends Fragment {
         piano_f = sp.load(MainActivity.ctx,R.raw.piano_f,1);
         piano_g = sp.load(MainActivity.ctx,R.raw.piano_g,1);
 
-        // load each soundpool with kick
+
+
         for (int i = 0; i < 8; i++){
+            // load each soundpool with kick
             array_sp[i] = new SoundPool.Builder().setAudioAttributes(att).build();
+
             array_kick[i] = array_sp[i].load(MainActivity.ctx,R.raw.kick,1);
+            array_jab[i] = array_sp[i].load(MainActivity.ctx,R.raw.jab,1);
+
+            soundMap.put("kick",array_kick);
+            soundMap.put("jab",array_jab);
+
         }
 
 
@@ -92,8 +153,44 @@ public class FragmentControl extends Fragment {
 
         // set UI objects views
         bpm_text = ll.findViewById(R.id.bpm_control_textview);
-        progress = ll.findViewById(R.id.progressBar);
+        progress = ll.findViewById(R.id.progressBar8);
+        for(int i = 0; i < 8; i++){
+            squares[i] = ll.findViewById(R.id.block1+i);
+            squares[i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
+
+            keys[i] = ll.findViewById(R.id.key0+i);
+        }
         progress.getIndeterminateDrawable().setColorFilter(0xFFFF0000, android.graphics.PorterDuff.Mode.MULTIPLY);
+
+        Spinner spinner = ll.findViewById(R.id.key_spinner);
+//      Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(MainActivity.ctx,R.array.piano_array, android.R.layout.simple_spinner_item);
+//      Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//      Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view,
+                                       int position, long id) {
+                Object item = adapterView.getItemAtPosition(position);
+                if (item != null) {
+                   // Toast.makeText(getContext(), item.toString(),Toast.LENGTH_SHORT).show();
+                    switchSound=item.toString();
+                    System.out.println(switchSound);
+                }
+                //Toast.makeText(getContext(), "Selected",Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // TODO Auto-generated method stub
+
+            }
+        });
+
         ready = true;
 
         return ll;
@@ -144,41 +241,118 @@ public class FragmentControl extends Fragment {
 
     public void sendSwitches(byte pressed_switches) {
         switches = pressed_switches;
+        //update square values
+        for(int i = 0; i < 8; i++){
+            if(ready && i!=lastSwitch){
+                squareColor(squares[i],getBit(switches,i));
+            }
 
+        }
     }
 
     class PlayTask extends TimerTask {
         public void run() {
             //main bpm timer code
 
-            System.out.println("Time's up!");
-            //sp2.play(jab,1,1,0,0,1);
-            if(getBit(switches,currentSwitch)){
-                array_sp[currentSwitch].play(array_kick[currentSwitch],1,1,0,0,1);
+            squareColor(squares[lastSwitch],getBit(switches,lastSwitch));
 
+            squareLightColor(squares[currentSwitch],getBit(switches,currentSwitch));
+
+            if(getBit(switches,currentSwitch)){
+                playSwitch(currentSwitch);
             }
+            lastSwitch = currentSwitch;
             currentSwitch=(++currentSwitch)%8;
             currentBpm = 60000/bpm;
-            t1.schedule(new PlayTask(),currentBpm);
-            barprog = 0;
-        //    progress.setMax(currentBpm);
-            progress.setProgress(0);
-            if(pTask!=null)pTask.cancel();
-            pTask = new ProgressTask();
 
-            // set subtimer for progressBar update
-            t2.scheduleAtFixedRate(pTask,0,currentBpm/30);
+            t1.schedule(new PlayTask(),currentBpm);
+
+            progress.setMax(100);
+            if(lastSwitch == 0){
+                barprog = 0;
+                progress.setProgress(0);
+                if(pTask!=null)pTask.cancel();
+                pTask = new ProgressTask();
+
+                // set subtimer for progressBar update
+                t2.scheduleAtFixedRate(pTask,0,(currentBpm*8)/100);
+            }
         }
     }
+
+    private void playSwitch(int currentSwitch) {
+
+        int[] sound = soundMap.get(switchSound);
+        if(sound != null){
+            array_sp[currentSwitch].play(sound[currentSwitch],1,1,0,0,1);
+        }
+
+    }
+
     class ProgressTask extends TimerTask {
         public void run() {
-            progress.setProgress(barprog+=(currentBpm/30.0));
+            progress.setProgress(barprog++);
         }
     }
-    public boolean getBit(byte b, int position)
-    {
+    public boolean getBit(byte b, int position){
+
+
         return ((b >> position) & 1) == 1;
     }
+
+    private void squareColor(final SurfaceView s, final boolean b){
+        getActivity().runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                if(b) s.setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myRed));
+                else s.setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
+
+            }
+        });
+
+    }
+
+
+    private void keyColor(final Button k, final boolean b){
+        getActivity().runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                if(b) k.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.ctx,R. color.myBlue)));
+                else k.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(MainActivity.ctx,R. color.myRed)));
+
+            }
+        });
+
+    }
+
+    private void squareLightColor(final SurfaceView s, final boolean b){
+        getActivity().runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                if(b) s.setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myLightRed));
+                else s.setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myLightBlue));
+
+            }
+        });
+    }
+
+    public void updateButtons(byte b){
+
+        if(ready) {
+            for(int i = 0; i < 8; i++){
+                keyColor(keys[i],getBit(b,i));
+            }
+        }
+
+
+    }
+
 
 
     @Override
