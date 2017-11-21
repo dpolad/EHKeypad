@@ -70,8 +70,9 @@ public class FragmentControl extends Fragment {
     private String switchSound_0 = "kick";
     private String switchSound_1 = "kick";
     private String switchSound_2 = "blabla";
+    private String switchSound_3 = "blabla";
 
-    private RadioButton[] radios = new RadioButton[3];
+    private RadioButton[] radios = new RadioButton[4];
     private RadioButton radio_off;
 
     private int currentRadio = 0;
@@ -95,10 +96,10 @@ public class FragmentControl extends Fragment {
     private HashMap<String, Integer> soundMap = new HashMap<String, Integer>();
 
     // byte taken from MainActivity, each bit is the position of a switch
-    private byte[] switches = new byte[3];
+    private byte[] switches = new byte[4];
 
     // each surfaces represents a switch
-    private SurfaceView[][] squares= new SurfaceView[3][8];
+    private SurfaceView[][] squares= new SurfaceView[4][8];
 
     // bpm value
     private long bpm = 30;
@@ -132,13 +133,13 @@ public class FragmentControl extends Fragment {
         // instantiate sound pools: sp2 is for switches, while sp is for buttons
 
         sp= new SoundPool.Builder().setMaxStreams(2).build();
-        sp2= new SoundPool.Builder().setMaxStreams(3).build();
-        piano_a = sp.load(MainActivity.ctx,R.raw.piano_a,1);
-        piano_b = sp.load(MainActivity.ctx,R.raw.piano_b,1);
-        piano_bb = sp.load(MainActivity.ctx,R.raw.piano_bb,1);
-        piano_c = sp.load(MainActivity.ctx,R.raw.piano_c,1);
-        piano_d = sp.load(MainActivity.ctx,R.raw.piano_d,1);
-        piano_e = sp.load(MainActivity.ctx,R.raw.piano_e,1);
+        sp2= new SoundPool.Builder().setMaxStreams(6).build();
+        piano_a = sp.load(MainActivity.ctx,R.raw.g4,1);
+        piano_b = sp.load(MainActivity.ctx,R.raw.dm5,1);
+        piano_bb = sp.load(MainActivity.ctx,R.raw.d5,1);
+        piano_c = sp.load(MainActivity.ctx,R.raw.c5,1);
+        piano_d = sp.load(MainActivity.ctx,R.raw.am4,1);
+        piano_e = sp.load(MainActivity.ctx,R.raw.a4,1);
         piano_f = sp.load(MainActivity.ctx,R.raw.piano_f,1);
         piano_g = sp.load(MainActivity.ctx,R.raw.piano_g,1);
 
@@ -146,10 +147,20 @@ public class FragmentControl extends Fragment {
         kick = sp2.load(MainActivity.ctx,R.raw.kick,1);
         jab = sp2.load(MainActivity.ctx,R.raw.jab,1);
         asd = sp2.load(MainActivity.ctx,R.raw.asd,1);
+        int lit_c_bass_hit_9 = sp2.load(MainActivity.ctx,R.raw.lit_c_bass_hit_9,1);
+        int lit_c_synth_hit_5 = sp2.load(MainActivity.ctx,R.raw.lit_c_synth_hit_5,1);
+        int lit_chicago = sp2.load(MainActivity.ctx,R.raw.lit_chicago86_ride,1);
+        int mr2_c_bass_hit_06 = sp2.load(MainActivity.ctx,R.raw.mr2_c_bass_hit_06,1);
+        int mr2_c_bass_hit_08 = sp2.load(MainActivity.ctx,R.raw.mr2_c_bass_hit_08,1);
 
         soundMap.put("kick",kick);
         soundMap.put("jab",jab);
         soundMap.put("asd",asd);
+        soundMap.put("lit_c_bass_hit_9",lit_c_bass_hit_9);
+        soundMap.put("lit_c_synth_hit_5",lit_c_synth_hit_5);
+        soundMap.put("lit_chicago",lit_chicago);
+        soundMap.put("mr2_c_bass_hit_06",mr2_c_bass_hit_06);
+        soundMap.put("mr2_c_bass_hit_08",mr2_c_bass_hit_08);
 
         super.onCreate(savedInstanceState);
 
@@ -168,6 +179,8 @@ public class FragmentControl extends Fragment {
         radios[0] = (RadioButton) ll.findViewById(R.id.radio_0);
         radios[1] = (RadioButton) ll.findViewById(R.id.radio_1);
         radios[2] = (RadioButton) ll.findViewById(R.id.radio_2);
+        radios[3] = (RadioButton) ll.findViewById(R.id.radio_3);
+
 
         radio_off.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -175,6 +188,7 @@ public class FragmentControl extends Fragment {
                 radios[0].setChecked(false);
                 radios[1].setChecked(false);
                 radios[2].setChecked(false);
+                radios[3].setChecked(false);
                 currentRadio = -1;
             }
         });
@@ -185,6 +199,7 @@ public class FragmentControl extends Fragment {
                 radios[0].setChecked(true);
                 radios[1].setChecked(false);
                 radios[2].setChecked(false);
+                radios[3].setChecked(false);
                 currentRadio = 0;
             }
         });
@@ -195,6 +210,7 @@ public class FragmentControl extends Fragment {
                 radios[0].setChecked(false);
                 radios[1].setChecked(true);
                 radios[2].setChecked(false);
+                radios[3].setChecked(false);
                 currentRadio = 1;
             }
         });
@@ -205,7 +221,19 @@ public class FragmentControl extends Fragment {
                 radios[0].setChecked(false);
                 radios[1].setChecked(false);
                 radios[2].setChecked(true);
+                radios[3].setChecked(false);
                 currentRadio = 2;
+            }
+        });
+
+        radios[3].setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                radio_off.setChecked(false);
+                radios[0].setChecked(false);
+                radios[1].setChecked(false);
+                radios[2].setChecked(false);
+                radios[3].setChecked(true);
+                currentRadio = 3;
             }
         });
 
@@ -221,6 +249,8 @@ public class FragmentControl extends Fragment {
             squares[1][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
             squares[2][i] = ll.findViewById(R.id.block2_0+i);
             squares[2][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
+            squares[3][i] = ll.findViewById(R.id.block3_0+i);
+            squares[3][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
             keys[i] = ll.findViewById(R.id.key0+i);
         }
 
@@ -306,6 +336,30 @@ public class FragmentControl extends Fragment {
             }
         });
 
+        Spinner spinner4 = ll.findViewById(R.id.key_spinner_3);
+        spinner4.setAdapter(adapter);
+        spinner4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view,
+                                       int position, long id) {
+                Object item = adapterView.getItemAtPosition(position);
+                if (item != null) {
+                    // Toast.makeText(getContext(), item.toString(),Toast.LENGTH_SHORT).show();
+                    switchSound_3=item.toString();
+                    System.out.println(switchSound_3);
+                }
+                //Toast.makeText(getContext(), "Selected",Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // TODO Auto-generated method stub
+
+            }
+        });
+
         ready = true;
 
         return ll;
@@ -374,10 +428,12 @@ public class FragmentControl extends Fragment {
             squareColor(squares[0][lastSwitch],getBit(switches[0],lastSwitch));
             squareColor(squares[1][lastSwitch],getBit(switches[1],lastSwitch));
             squareColor(squares[2][lastSwitch],getBit(switches[2],lastSwitch));
+            squareColor(squares[3][lastSwitch],getBit(switches[3],lastSwitch));
 
             squareLightColor(squares[0][currentSwitch],getBit(switches[0],currentSwitch));
             squareLightColor(squares[1][currentSwitch],getBit(switches[1],currentSwitch));
             squareLightColor(squares[2][currentSwitch],getBit(switches[2],currentSwitch));
+            squareLightColor(squares[3][currentSwitch],getBit(switches[3],currentSwitch));
 
 
             playSwitch();
@@ -406,6 +462,7 @@ public class FragmentControl extends Fragment {
         Integer sound0 = soundMap.get(switchSound_0);
         Integer sound1 = soundMap.get(switchSound_1);
         Integer sound2 = soundMap.get(switchSound_2);
+        Integer sound3 = soundMap.get(switchSound_3);
 
         if(sound0 != null && getBit(switches[0],currentSwitch)){
             sp2.play(sound0,1,1,0,0,1);
@@ -415,6 +472,9 @@ public class FragmentControl extends Fragment {
         }
         if(sound2 != null && getBit(switches[2],currentSwitch)){
             sp2.play(sound2,1,1,0,0,1);
+        }
+        if(sound3 != null && getBit(switches[3],currentSwitch)){
+            sp2.play(sound3,1,1,0,0,1);
         }
 
     }

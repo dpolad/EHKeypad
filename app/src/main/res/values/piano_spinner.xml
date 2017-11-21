@@ -4,5 +4,10 @@
         <item>kick</item>
         <item>jab</item>
         <item>asd</item>
+        <item>lit_c_bass_hit_9</item>
+        <item>lit_c_synth_hit_5</item>
+        <item>lit_chicago</item>
+        <item>mr2_c_bass_hit_06</item>
+        <item>mr2_c_bass_hit_08</item>
     </string-array>
 </resources>
