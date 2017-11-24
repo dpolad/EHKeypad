@@ -1,35 +1,23 @@
 package brb.ehkeypad;
 import android.content.Context;
-import android.nfc.TagLostException;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.NfcV;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
-import android.widget.CheckBox;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 import java.io.IOException;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import brb.ehkeypad.FragmentLog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -183,12 +171,12 @@ public class MainActivity extends AppCompatActivity {
                         if(response[0] == 0x00){
                             byte pressed_buttons = response[1];
                             fd.updateButtons(pressed_buttons);
-                            fc.sendTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
+                            fc.sendButtonsTriggers((byte)((pressed_buttons^previous_pressed_buttons)&pressed_buttons));
                             fc.updateButtons(pressed_buttons);
                             previous_pressed_buttons = pressed_buttons;
                             byte pressed_switches = response[2];
-                            fd.updateSwitches(pressed_switches);
-                            fc.sendSwitches(pressed_switches);
+                            fd.updateSwitches((byte) ~pressed_switches);
+                            fc.sendSwitches((byte) ~pressed_switches);
                             byte adc_msb = response[3];
                        //     byte adc_lsb = response[4];
                             int bpm_value = 0x000000FF&((int) adc_msb);

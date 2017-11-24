@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
     android:orientation="vertical">
 
 
+    <!-- BPM -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,30 +16,25 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="BPM"
-            android:textColor="@color/myLightBlue" />
+            android:fontFamily="monospace"
+            android:text="BPM:"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/bpm_control_textview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="10"
             android:fontFamily="monospace"
             android:text="000"
-            android:textAlignment="center"
             android:textColor="#212121"
             android:textSize="20sp" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="6"
-            android:backgroundTint="@android:color/holo_blue_dark" />
     </LinearLayout>
 
 
+    <!-- Radio off + Progressbar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,10 +43,9 @@
         <RadioButton
             android:id="@+id/radio_off"
             android:layout_width="0dp"
-            android:buttonTint="@color/myRed"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
+            android:layout_weight="1"
+            android:buttonTint="#212121" />
 
         <ProgressBar
             android:id="@+id/progressBar8"
@@ -65,320 +59,369 @@
     </LinearLayout>
 
 
+    <!-- Switch Label 0 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.10"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/switch_label_0"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
 
+    <!-- Switches line  0 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radio_0"
             android:layout_width="0dp"
-            android:buttonTint="@color/myRed"
             android:layout_height="wrap_content"
-            android:layout_weight="0.1" />
+            android:layout_weight="1"
+            android:buttonTint="#212121" />
 
         <LinearLayout
-            android:id="@+id/layout_switches_1"
-            android:layout_width="wrap_content"
+            android:id="@+id/switch_line_0"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:layout_weight="8">
 
+            <SurfaceView
+                android:id="@+id/block0_0"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_0"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_2"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_3"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_4"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_5"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block0_6"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
-
-        <SurfaceView
-            android:id="@+id/block0_7"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block0_7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
         </LinearLayout>
+
     </LinearLayout>
 
+
+
+
+    <!-- Switch Label 1 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.10"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/switch_label_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
 
+    <!-- Switches line  1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radio_1"
             android:layout_width="0dp"
-            android:buttonTint="@color/myRed"
             android:layout_height="wrap_content"
-            android:layout_weight="0.1" />
+            android:layout_weight="1"
+            android:buttonTint="#212121" />
 
-        <SurfaceView
-            android:id="@+id/block1_0"
+        <LinearLayout
+            android:id="@+id/switch_line_1"
             android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            android:layout_height="wrap_content"
+            android:layout_weight="8">
 
-        <SurfaceView
-            android:id="@+id/block1_1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_0"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_2"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_3"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_4"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_5"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_6"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block1_7"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block1_6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
+            <SurfaceView
+                android:id="@+id/block1_7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
+
+
+
+
+    <!-- Switch Label 2 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.10"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/switch_label_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
 
+    <!-- Switches line  2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radio_2"
-            android:buttonTint="@color/myRed"
             android:layout_width="0dp"
-            android:layout_gravity="center"
             android:layout_height="wrap_content"
-            android:layout_weight="0.1" />
+            android:layout_weight="1"
+            android:buttonTint="#212121" />
 
-        <SurfaceView
-            android:id="@+id/block2_0"
+        <LinearLayout
+            android:id="@+id/switch_line_2"
             android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            android:layout_height="wrap_content"
+            android:layout_weight="8">
 
-        <SurfaceView
-            android:id="@+id/block2_1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_0"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_2"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_3"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_4"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_5"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_6"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block2_7"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block2_6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
+            <SurfaceView
+                android:id="@+id/block2_7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
+
+
+
+
+    <!-- Switch Label 3 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.10"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/switch_label_3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
 
+    <!-- Switches line  3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/radio_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/myRed"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.1" />
+            android:layout_weight="1"
+            android:buttonTint="#212121" />
 
-        <SurfaceView
-            android:id="@+id/block3_0"
+        <LinearLayout
+            android:id="@+id/switch_line_3"
             android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            android:layout_height="wrap_content"
+            android:layout_weight="8">
 
-        <SurfaceView
-            android:id="@+id/block3_1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_0"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_2"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_3"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_4"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_5"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_6"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
-        <SurfaceView
-            android:id="@+id/block3_7"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight="0.1" />
+            <SurfaceView
+                android:id="@+id/block3_6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
 
+            <SurfaceView
+                android:id="@+id/block3_7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
 
+
+
+    <!-- padding -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -388,20 +431,18 @@
     </LinearLayout>
 
 
-
-
-
-
+    <!-- Buttons -->
     <LinearLayout
+        style="@android:style/ButtonBar"
+        android:padding="0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@android:style/ButtonBar"
         android:gravity="center">
 
         <Button
             android:id="@+id/key0"
-            android:layout_width="0dp"
             style="@android:style/ButtonBar"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@android:color/holo_blue_dark"
