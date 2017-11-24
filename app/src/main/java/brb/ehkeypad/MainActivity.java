@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void stopRepeatingTask() {
-        myHandler.removeCallbacks(myStatusChecker);
+        if(myHandler != null) myHandler.removeCallbacks(myStatusChecker);
     }
 
 

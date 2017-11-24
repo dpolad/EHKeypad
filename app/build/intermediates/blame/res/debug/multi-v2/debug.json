@@ -108,6 +108,28 @@
             ]
         },
         {
+            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,394,502,625,733,842,926,1029,1148,1232,1336,1445,1546,1651,1765,1870,1990,2089",
+                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
+                        "endOffsets": "389,497,620,728,837,921,1024,1143,1227,1331,1440,1541,1646,1760,1865,1985,2084,2185"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,169,277,400,508,617,701,804,923,1007,1111,1220,1321,1426,1540,1645,1765,1864",
+                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
+                        "endOffsets": "164,272,395,503,612,696,799,918,1002,1106,1215,1316,1421,1535,1640,1760,1859,1960"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat",
             "map": [
                 {
@@ -127,28 +149,6 @@
                         "endLines": "4,8,12,15,18,21,25,29,32,35,38,42,45",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "223,451,788,946,1096,1268,1496,1738,1909,2083,2252,2525,2725"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,394,502,625,733,842,926,1029,1148,1232,1336,1445,1546,1651,1765,1870,1990,2089",
-                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
-                        "endOffsets": "389,497,620,728,837,921,1024,1143,1227,1331,1440,1541,1646,1760,1865,1985,2084,2185"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,508,617,701,804,923,1007,1111,1220,1321,1426,1540,1645,1765,1864",
-                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
-                        "endOffsets": "164,272,395,503,612,696,799,918,1002,1106,1215,1316,1421,1535,1640,1760,1859,1960"
                     }
                 }
             ]
@@ -242,28 +242,6 @@
             ]
         },
         {
-            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-large/values-large.xml",
-                    "from": {
-                        "startLines": "4,7,8,11,12,13,14,15,16,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "281,570,642,928,992,1059,1126,1192,1258,1545,1649",
-                        "endColumns": "61,71,58,63,66,66,65,65,54,103,115",
-                        "endOffsets": "338,637,696,987,1054,1121,1187,1253,1308,1644,1760"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,248,312,379,446,512,578,633,737",
-                        "endColumns": "61,71,58,63,66,66,65,65,54,103,115",
-                        "endOffsets": "112,184,243,307,374,441,507,573,628,732,848"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat",
             "map": [
                 {
@@ -281,6 +259,28 @@
                         "startOffsets": "55,165,275,401,504,615,703,806,921,1002,1114,1217,1315,1425,1528,1637,1762,1863",
                         "endColumns": "109,109,125,102,110,87,102,114,80,111,102,97,109,102,108,124,100,100",
                         "endOffsets": "160,270,396,499,610,698,801,916,997,1109,1212,1310,1420,1523,1632,1757,1858,1959"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-large/values-large.xml",
+                    "from": {
+                        "startLines": "4,7,8,11,12,13,14,15,16,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "281,570,642,928,992,1059,1126,1192,1258,1545,1649",
+                        "endColumns": "61,71,58,63,66,66,65,65,54,103,115",
+                        "endOffsets": "338,637,696,987,1054,1121,1187,1253,1308,1644,1760"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,248,312,379,446,512,578,633,737",
+                        "endColumns": "61,71,58,63,66,66,65,65,54,103,115",
+                        "endOffsets": "112,184,243,307,374,441,507,573,628,732,848"
                     }
                 }
             ]
@@ -796,28 +796,6 @@
             ]
         },
         {
-            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-ml-rIN/values-ml-rIN.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,403,511,634,752,868,961,1066,1198,1280,1391,1497,1595,1709,1810,1921,2049,2150",
-                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
-                        "endOffsets": "398,506,629,747,863,956,1061,1193,1275,1386,1492,1590,1704,1805,1916,2044,2145,2246"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,282,405,523,639,732,837,969,1051,1162,1268,1366,1480,1581,1692,1820,1921",
-                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
-                        "endOffsets": "169,277,400,518,634,727,832,964,1046,1157,1263,1361,1475,1576,1687,1815,1916,2017"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-xlarge-land-v4_values-xlarge-land-v4.arsc.flat",
             "map": [
                 {
@@ -835,6 +813,28 @@
                         "startOffsets": "55",
                         "endColumns": "63",
                         "endOffsets": "114"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/values-ml-rIN/values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,403,511,634,752,868,961,1066,1198,1280,1391,1497,1595,1709,1810,1921,2049,2150",
+                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
+                        "endOffsets": "398,506,629,747,863,956,1061,1193,1275,1386,1492,1590,1704,1805,1916,2044,2145,2246"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,174,282,405,523,639,732,837,969,1051,1162,1268,1366,1480,1581,1692,1820,1921",
+                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
+                        "endOffsets": "169,277,400,518,634,727,832,964,1046,1157,1263,1361,1475,1576,1687,1815,1916,2017"
                     }
                 }
             ]
