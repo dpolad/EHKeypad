@@ -24,12 +24,12 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/asd.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1100,10 +1100,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_layouttextview.xml.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/layouttextview.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -1450,10 +1446,6 @@
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_control_tab_old.xml.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/control_tab_old.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
