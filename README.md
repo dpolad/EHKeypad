@@ -1,12 +1,9 @@
 # EHKeypad
 
-#### Project developed for the eSAME 2017 Conference - [STM32Nucleo IoT Contest](http://www.esame-conference.org/program/stm32-iot-contest-2017/)
+![EHKeypad logo](https://raw.githubusercontent.com/dpolad/EHKeypad/master/doc/img/logo.png)
 
-#### @@@@ Under Construction @@@@
-
-Idea: *TODO*
-
-Description: The goal of EHKeypad is to enhance input capabilities of the smartphone adding physical inputs to it (eg buttons, switches, etc. ). 
+## Description
+The goal of EHKeypad is to enhance input capabilities of the smartphone adding physical inputs to it (eg buttons, switches, etc. ). 
 
 The communication between the smartphone and EHKeypad is based on NFC. In addition, NFC allows the device to be entirely powered through energy harvesting.
 
@@ -20,5 +17,12 @@ The smartphone application gives a graphical interface to the device and lets th
 
 In order to achieve the communication between the device and the smartphone, the "Fast transfer mode/Mailbox" is used.
 
-Development: *TODO*
+The project was developed for the eSAME 2017 Conference - [STM32Nucleo IoT Contest](http://www.esame-conference.org/program/stm32-iot-contest-2017/)
 
+## Development
+![Basic idea poster](https://raw.githubusercontent.com/dpolad/EHKeypad/master/doc/img/poster.png)
+
+### Nucleo L476RG
+
+### Android application
+![Basic idea poster](https://raw.githubusercontent.com/dpolad/EHKeypad/master/doc/img/screenshot.png)
