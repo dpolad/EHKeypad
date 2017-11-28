@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ViewPager viewPager = findViewById(R.id.pager);
+        viewPager.setOffscreenPageLimit(2);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new FragmentLog(), "Log");
         adapter.addFragment(new FragmentDebug(), "Debug");

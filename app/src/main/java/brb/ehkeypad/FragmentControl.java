@@ -119,7 +119,7 @@ public class FragmentControl extends Fragment {
         for(int i = 0; i < SWITCHES_LINES; i++) {
             sp_switches[i] = new SoundPool.Builder().setMaxStreams(1).build();
         }
-        System.out.println("2");
+
         // populate sound_array ArrayList
         try {
             fillMap();
@@ -127,10 +127,7 @@ public class FragmentControl extends Fragment {
             e.printStackTrace();
         }
 
-        System.out.println("3");
         super.onCreate(savedInstanceState);
-
-        System.out.println("4");
     }
 
     @Override
@@ -138,7 +135,6 @@ public class FragmentControl extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        System.out.println("5");
         View layout = inflater.inflate(R.layout.control_tab, container, false);
 
         bpm_text = layout.findViewById(R.id.bpm_control_textview);
@@ -151,8 +147,6 @@ public class FragmentControl extends Fragment {
         radios[1] = layout.findViewById(R.id.radio_1);
         radios[2] = layout.findViewById(R.id.radio_2);
         radios[3] = layout.findViewById(R.id.radio_3);
-
-        System.out.println("6");
 
         radio_off.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -213,7 +207,6 @@ public class FragmentControl extends Fragment {
         progress_bar = layout.findViewById(R.id.progressBar8);
         progress_bar.getIndeterminateDrawable().setColorFilter(0xFFFF0000, android.graphics.PorterDuff.Mode.MULTIPLY);
 
-        System.out.println("7");
 
 
         //fill squares with blue color
@@ -228,7 +221,6 @@ public class FragmentControl extends Fragment {
             squares[3][i].setBackgroundColor(ContextCompat.getColor(MainActivity.ctx,R.color.myBlue));
         }
 
-        System.out.println("8");
 
         // each spinner is for a line of switches, at the moment cannot make the code more elegant
 
@@ -246,7 +238,6 @@ public class FragmentControl extends Fragment {
         switches_sound_text[3] = layout.findViewById(R.id.switch_label_3);
         switches_sound_text[3].setText("None");
 
-        System.out.println("9");
 
         int[] switch_line_ids = {R.id.switch_line_0,R.id.switch_line_1,R.id.switch_line_2,R.id.switch_line_3};
         for(int i = 0; i < SWITCHES_LINES; i++) {
@@ -262,7 +253,6 @@ public class FragmentControl extends Fragment {
         }
 
 
-        System.out.println("10");
 
         for(int i = 0; i < BUTTONS_NUMBER; i++) {
             keys[i] = layout.findViewById(R.id.key0 + i);
@@ -277,7 +267,6 @@ public class FragmentControl extends Fragment {
         }
 
 
-        System.out.println("11");
         ready = true;
         return layout;
     }
@@ -305,12 +294,15 @@ public class FragmentControl extends Fragment {
     }
 
     public void setBpm(long bpm) {
-        this.bpm = (bpm+29)*4;
-        if(ready) bpm_text.setText(String.valueOf(bpm+29));
+        this.bpm = (bpm+14)*4;
+        if(ready) bpm_text.setText(String.valueOf(bpm+14                               ));
     }
     public void sendButtonsTriggers(byte b) {
+
         for(int i = 0;i<8;i++){
-            if(getBit(b,i)) sp_buttons.play(sounds_array.get(button_sound_index[i]).soundid_buttons,1,1,0,0,1);
+            if(getBit(b,i) && ready){
+                sp_buttons.play(sounds_array.get(button_sound_index[i]).soundid_buttons,1,1,0,0,1);
+            }
         }
 
 

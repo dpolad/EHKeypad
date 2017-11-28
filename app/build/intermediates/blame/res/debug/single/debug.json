@@ -1,23 +1,11 @@
 [
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_snare_01.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_snare_01.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_jab.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/jab.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_asd.mp3.flat",
@@ -32,26 +20,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
@@ -60,28 +28,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_d4.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/d4.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_e3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/e3.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -96,26 +44,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_control_tab.xml.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/control_tab.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -124,16 +52,16 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_full.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_full.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_popo.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/popo.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_snare_10.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_snare_10.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_ride_05.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_ride_05.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -148,76 +76,20 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_kick.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/kick.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/xml_nfc_tech_filter.xml.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/xml/nfc_tech_filter.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c5.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_full_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_debug_tab.xml.flat",
@@ -226,18 +98,6 @@
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -252,36 +112,24 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_e5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/e5.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_design_fab_out.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/anim/design_fab_out.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_crash_05.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_crash_05.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
@@ -292,24 +140,12 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/d5.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_longpressed_holo.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -324,14 +160,6 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/lit_c_synth_hit_5.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_mode_bar.xml"
     },
@@ -344,24 +172,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -384,20 +200,8 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/f3.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -408,24 +212,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_bar_view_list_nav_layout.xml.flat",
@@ -436,10 +228,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
@@ -448,20 +236,8 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/cm4.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gm5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gm5.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
@@ -472,28 +248,764 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_destination.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/destination.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi8.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi8.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_timpani_02.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_timpani_02.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_kick_18.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_kick_18.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c6.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c6.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_am4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/am4.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_b3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/b3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_win31.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/win31.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_lit_chicago86_ride.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/lit_chicago86_ride.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi2.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi2.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_lit_c_bass_hit_9.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/lit_c_bass_hit_9.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g5.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi1.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi1.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_d.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_d.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_kick_11.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_kick_11.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gm3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gm3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_cm3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/cm3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_tom_06.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_tom_06.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm4.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_g.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_g.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_e.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_e.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_mr2_c_bass_hit_08.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/mr2_c_bass_hit_08.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c4.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_bb.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_bb.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_hat_13.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_hat_13.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm5.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_lines.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_clap_02.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_clap_02.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g4.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_f.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_f.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_jab.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/jab.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_rating_star_off_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_d4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/d4.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_e3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/e3.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background_dark.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_control_tab.xml.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/control_tab.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_popo.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/popo.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_kick.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/kick.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/xml_nfc_tech_filter.xml.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/xml/nfc_tech_filter.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c5.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_full_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_rating_star_off_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_1.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_1.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_hat_05.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_hat_05.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_e5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/e5.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_design_fab_out.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gm5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gm5.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_destination.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/destination.mp3"
+    },
+    {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -512,20 +1024,8 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/cm5.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_bounce.xml.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/anim/bounce.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -540,16 +1040,8 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_am5.mp3.flat",
@@ -568,64 +1060,36 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_select_dialog_material.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_tom_05.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_tom_05.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_full.ogg.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_full.ogg"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi9.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi9.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -640,28 +1104,12 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/mr2_c_bass_hit_06.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c6.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c6.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_am4.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/am4.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_b3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/b3.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -672,20 +1120,12 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_c.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_f4.mp3.flat",
@@ -696,8 +1136,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_win31.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/win31.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_half_2.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_half_2.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
@@ -716,28 +1156,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_lit_chicago86_ride.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/lit_chicago86_ride.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_a4.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/a4.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -746,10 +1166,6 @@
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_b.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_b.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -768,10 +1184,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
@@ -784,8 +1196,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi4.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -808,40 +1220,20 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_lit_c_bass_hit_9.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/lit_c_bass_hit_9.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g5.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
@@ -856,28 +1248,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_a.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_a.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -888,44 +1264,28 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g3.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_4.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_4.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_d.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_d.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi5.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
@@ -942,10 +1302,6 @@
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background_light.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_focused_holo.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -972,36 +1328,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_half_1.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_half_1.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1012,24 +1344,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gm3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gm3.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1040,20 +1356,12 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/fm3.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_cm3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/cm3.mp3"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1064,28 +1372,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm3.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -1108,24 +1396,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c3.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c3.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_focused_holo.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat",
@@ -1140,68 +1416,36 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_b5.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/b5.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_fm4.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/fm4.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_b5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/b5.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm4.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm4.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_rim_04.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_rim_04.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi7.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi7.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_log_tab.xml.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/layout/log_tab.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_g.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_g.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1212,68 +1456,20 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_e.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_e.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_mr2_c_bass_hit_08.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/mr2_c_bass_hit_08.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_list_focused_holo.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_c4.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/c4.mp3"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_fm5.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/fm5.mp3"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_bb.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_bb.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_dm5.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/dm5.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_3.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_3.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -1284,40 +1480,12 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_notification_template_lines.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_e4.mp3.flat",
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/e4.mp3"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
@@ -1340,28 +1508,8 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_btn_rating_star_off_mtrl_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_list_longpressed_holo.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
@@ -1372,44 +1520,32 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/design-23.0.1.aar/2aaf2ae63f954da35bbed801ff1e774e/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_roll_01.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_roll_01.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_slide_in_top.xml"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_smd_shaker_03.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/smd_shaker_03.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_gigi6.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/gigi6.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-mdpi_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_g4.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/g4.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_list_pressed_holo_dark.9.png.flat",
@@ -1432,10 +1568,6 @@
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/anim/abc_popup_exit.xml"
     },
@@ -1444,24 +1576,16 @@
         "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/a3.mp3"
     },
     {
+        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_epic_sax_2.mp3.flat",
+        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/epic_sax_2.mp3"
+    },
+    {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat",
-        "source": "/home/davide/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5fccf0c57643c721037360e4a93b263/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/raw_piano_f.mp3.flat",
-        "source": "/home/davide/Downloads/EHKeypad/app/src/main/res/raw/piano_f.mp3"
     },
     {
         "merged": "/home/davide/Downloads/EHKeypad/app/build/intermediates/res/merged/debug/drawable-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
