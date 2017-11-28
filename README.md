@@ -31,7 +31,7 @@ All the information and datasheets can be found at these links:
 - [X-NUCLEO-NFC04A1](http://www.st.com/en/ecosystems/x-nucleo-nfc04a1.html)
 
 ### Pseudocode
-To have a better comprehension of the behaviour of the board the following pseudocode ca be used:
+To have a better comprehension of the behaviour of the board the following pseudocode can be useful:
 ```
 init_GPIO();
 init_ADC();
