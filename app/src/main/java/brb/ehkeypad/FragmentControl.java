@@ -1,13 +1,19 @@
 package brb.ehkeypad;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.media.SoundPool;
+import android.os.Build;
+import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;
@@ -18,6 +24,7 @@ import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import java.io.File;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Timer;
@@ -33,13 +40,13 @@ public class FragmentControl extends Fragment {
 
     class Sound {
         public String name;
-        public int rid;
+        public String path;
         public int soundid_buttons;
         public int[] soundid_switches =  new int[4];
 
-        public Sound(String name, int rid) {
+        public Sound(String name, String path) {
             this.name = name;
-            this.rid = rid;
+            this.path = path;
             this.soundid_buttons = -1;
             for(int i = 0; i < SWITCHES_LINES; i++) {
                 this.soundid_switches[i] = -1;
@@ -380,11 +387,24 @@ public class FragmentControl extends Fragment {
 
 
     }
+
     public void fillMap() throws IllegalAccessException {
+
+        /*
         Field[] fields=R.raw.class.getFields();
-        sounds_array.add(new Sound("None",0));
+        sounds_array.add(new Sound("None","None"));
         for(int count=0; count < fields.length; count++){
             sounds_array.add(new Sound(fields[count].getName(),fields[count].getInt(fields[count])));
+        }*/
+
+        //TODO If app doesn't have READ_EXTERNAL_STORAGE permission crashes. Must wait user allows it
+        ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+        String path = Environment.getExternalStorageDirectory().toString()+"/sounds";
+        File directory = new File(path);
+        File[] files = directory.listFiles();
+        for (int i = 0; i < files.length; i++)
+        {
+            sounds_array.add(new Sound(files[i].getName(),path+"/"+files[i].getName()));
         }
     }
     public Dialog onCreateDialogSingleChoice(final boolean is_button, final int switch_button_number) {
@@ -418,12 +438,12 @@ public class FragmentControl extends Fragment {
                         if(is_button){
                             button_sound_index[switch_button_number] = which;
                             if(which > 0) sounds_array.get(which).soundid_buttons=
-                                    sp_buttons.load(MainActivity.ctx,sounds_array.get(which).rid,0);
+                                    sp_buttons.load(sounds_array.get(which).path,0);
                         }
                         else{
                             switches_sound_index[switch_button_number] = which;
                             if(which > 0) sounds_array.get(which).soundid_switches[switch_button_number]=
-                                    sp_switches[switch_button_number].load(MainActivity.ctx,sounds_array.get(which).rid,0);
+                                    sp_switches[switch_button_number].load(sounds_array.get(which).path,0);
                             switches_sound_text[switch_button_number].setText(sounds_array.get(which).name);
 
                         }
