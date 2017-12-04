@@ -3,6 +3,10 @@
 ![EHKeypad logo](https://raw.githubusercontent.com/dpolad/EHKeypad/master/doc/img/logo.png)
 ![Photo](https://raw.githubusercontent.com/dpolad/EHKeypad/master/doc/img/board.jpg)
 
+## Update
+**We won the first prize for the best technical project!** 
+![Award photo ](https://github.com/dpolad/EHKeypad/raw/master/doc/img/final.jpg)
+
 ## Description
 EHKeypad is a device with the goal to enhance input capabilities of the smartphone adding physical inputs to it (eg buttons, switches, etc. ). 
 
