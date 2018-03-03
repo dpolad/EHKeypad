@@ -8,6 +8,9 @@
 ![Award photo ](https://github.com/dpolad/EHKeypad/raw/master/doc/img/final.jpg)
 
 ## Description
+
+### Video description on [Youtube](https://youtu.be/47Rc4OJlksE?t=1m10s)
+
 EHKeypad is a device with the goal to enhance input capabilities of the smartphone adding physical inputs to it (eg buttons, switches, etc. ). 
 
 The communication between the smartphone and EHKeypad is based on NFC. In addition, NFC allows the device to be entirely powered through energy harvesting.
